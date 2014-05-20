@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Kunnis">
+
+    <title>Kunnis</title>
+
+    <link rel="stylesheet" href="static/stylesheets/uikit.min.css" />
+    <link rel="stylesheet" href="static/stylesheets/jquery.fancybox.css" />
+    <link rel="stylesheet" href="static/stylesheets/style.css" />
+
+    <link rel="shortcut icon" href="static/images/favicon.ico">
+
+</head>
+
+<body>
+
+    <div class="headerbar with-shadow">
+        <nav class="uk-navbar with-border">
+            <div class="uk-container uk-container-center">
+                <div class="uk-clearfix">
+                    <a class="logo uk-float-left uk-display-block" data-uk-smooth-scroll></a>
+                    <div class="uk-navbar-flip uk-visible-large">
+                        <ul class="uk-navbar-nav" data-uk-scrollspy-nav="{smoothscroll: {closest: 'li', offset: 81}}">
+                            <li class="uk-hidden"><a href="#fullscreen"></a></li>
+                            <li><a href="#manifesto">manifesto</a></li>
+                        </ul>
+                    </div>
+                    <a class="uk-navbar-toggle uk-navbar-flip uk-hidden-large" data-uk-toggle="{target:'#offcanvasmenu'}"></a>
+                    <div id="offcanvasmenu" class="uk-hidden uk-hidden-large">
+                        <div class="uk-offcanvasmenu-bar">
+                            <ul class="uk-navbar-nav" data-uk-scrollspy-nav="{smoothscroll: {closest: 'li', offset: 81}}">
+                                <li class="uk-hidden"><a href="#fullscreen"></a></li>
+                                <li><a href="#manifesto">manifesto</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div id="manifesto" class="block with-border">
+        <div class="uk-container uk-container-center">
+            <section class="manifesto">
+                <div class="uk-text-center">
+                    <p class="uk-text-justify uk-margin-large-top">
+                        Now for some text
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+   
+
+
+    <div id="footer" class="block-small">
+        <div class="uk-container uk-container-center">
+            <section class="footer uk-text-center">
+                &copy; 2014 Kunnis
+            </section>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="static/javascript/uikit.min.js"></script>
+    <script src="static/javascript/jquery.fancybox.pack.js"></script>
+    <script src="static/javascript/application.js"></script>
+
+</body>
+
+</html>
